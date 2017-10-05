@@ -13,17 +13,30 @@
    
   </head>
   <body>
-    <!-- SVG LOGO GRAPHIC++++++++++++++++++++++++++++++++++++++ -->
 
-    <div class=".navbar"> 
-      <img src="/logo.png">
-      <div class="search navbar-btn"><i class="fa fa-search" aria-hidden="true"></i> SEARCH
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="/logo.png" class="img-responsive"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Cart</a></li>
+          <li>
+            <form class="navbar-form">
+              <div class="form-group">
+                <input type="text" class="searchthingy form-control" placeholder="SEARCH">
+              </div>
+            </form>
+          </li>
+        </ul>
       </div>
-      <div class="cart navbar-btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CART</div>
-      <div class="signIn navbar-btn">SIGN IN</div>
-      
-      
-    </div>
+    </nav>
+
+   
+
+
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
